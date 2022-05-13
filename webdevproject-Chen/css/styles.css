@@ -1,0 +1,394 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 100%;
+    line-height: 1.7em;
+    color:#000000;
+}
+
+body, html {
+    height:100%;
+    width:100%
+}
+
+
+footer {
+    background-color: #F7B2AD;
+    clear: both;
+    margin: 0;
+    padding: .5em;
+    color: #333333;
+    font-variant: small-caps;
+    font-size: .813em;
+    text-align: center;
+    border-top: 1px dotted #cccccc;
+}
+
+#content h3 {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    margin: 30px 0 10px 0;
+    font-weight: normal;
+}
+
+/* TOP ROW */
+#top_row {
+    border-bottom: 1px dotted #ccc;
+    padding: .5em .5em 125px .5em;
+    background-color: pink;
+    z-index: 9000;
+}
+
+#top_row p {
+    margin: auto;
+    font-size: 100%;
+    color: blue;
+}
+
+#top_row header {
+    margin-bottom: -5em;
+}
+
+#top_row nav {
+    margin-top: 75px;
+    float: right;
+}
+
+#top_row nav a {
+    font-size: 1.125em;
+    font-weight: 400;
+    padding: 15px;
+    color: #000000;
+}
+
+#top_row nav a.selected {
+    background: #9AD4D6;
+    color: black;
+}
+
+#top_row nav a.selected:hover {
+    background: #f6f6f6;
+    color: #bbbbbb;
+}
+
+#top_row nav a:hover {
+    background: #f6f6f6;
+    color: #0F4970;
+}
+
+#top_row h1 {
+    color: #351c75;
+    font-size: 3.75em;
+    letter-spacing: -2px;
+}
+
+#top_row h3 {
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+#top_row img {
+    float: left;
+}
+
+#top_row a {
+    color: #351c75;
+    text-decoration: none;
+}
+
+#top_row a:hover {
+    color: #0F4970;
+    text-decoration: underline;
+
+}
+
+/* PAGE 1 */
+.page1 #content {
+    float: center;
+    width: 100%;
+    margin: 0;
+    padding: lem;
+    
+}
+
+.page1 img[src="images/home pics/pic1.jpg"] {
+    float: left;
+    border: 10px groove pink;
+    
+}
+
+.page1 #one {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: #90F1EF;
+    text-shadow: 2px 2px #E22866;
+    font-size: 35px;
+
+}
+
+.page1 img[src="images/home pics/pic2.jpg"] {
+    float: right;
+    border: 10px groove pink;
+}
+
+.page1 #two {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: #90F1EF;
+    text-shadow: 2px 2px #E22866;
+    font-size: 35px;
+
+}
+
+.page1 #three {
+    text-align: center;
+    font-size: 50px;
+    color: #C51B54;
+    text-shadow: 5px 3px #726DA8;
+}
+
+.page1 img[src="images/instagram.png"] {
+    position: relative;
+    top: 2.5px;
+}
+
+.page1 img[src="images/facebook.png"] {
+    position: relative;
+    top: 2.5px;
+}
+
+.page1 img[src="images/yelp.png"] {
+    position: relative;
+    top: 1.5px;
+    left: 5px;
+}
+
+.page1 h2 {
+    text-align: center;
+    font-size: 55px;
+    color: #E22866;
+    text-shadow: 2px 2px #90F1EF
+}
+
+/* Page 2 */
+#tabs img {
+    float: left;
+    margin: 10px;
+}
+
+
+#tabs span {
+    margin: left;
+}
+
+/* Page 3 */
+.page3 #content img {
+    float: left;
+    width: 50%;
+}
+
+.page3 #content p {
+    margin: 0px 0px 0px 900px;
+}
+
+.page3 table {
+    width: 30%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightpink;
+    border-spacing: 1px;
+    margin: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    height: 50%;
+}
+
+/* Page 4 */
+.page4 iframe {
+    display: block;
+    margin: center;
+}
+
+#reviews {
+    float: left;
+    display: flex;
+    margin-right: 20px;
+}
+
+.page4 #content img {
+    border: 2px solid black;
+}
+
+.page4 p {
+    position: absolute;
+    top: 690px;
+    left: 910px;
+}
+
+.page4 #p1 {
+    position: absolute;
+    top: 605px;
+    left: 905px;
+    font-size: 50px;
+    color: #E95D8C;
+}
+
+.page4 h3 {
+    position: relative;
+    left: 5px;
+}
+
+.page4 #h31 {
+    position: relative;
+    left: -10px;
+}
+
+/*Page 5 */
+.page5 p {
+    float: left;
+    font-size: 15px;
+}
+
+.page5 img[src="images/email.png"] {
+    margin: auto;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.page5 table {
+    width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightpink;
+    border-spacing: 1px;
+    margin: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    height: 50%;
+}
+
+th {
+    height: 40px;
+    font-weight: bold;
+}
+
+th, td {
+    padding: -5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+}
+
+#container {
+    width: 90%;
+    margin: 1px auto;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+html { 
+    overflow-y: scroll;
+}
+* {box-sizing:border-box}
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/DinerMainPic1.png");
+ 
+    
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.content {
+    padding: 14px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: -75px;
+    width: 90;
+    background-color: pink;
+    padding: 11px;
+    z-index: 9000;
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 10px;
+}
+ 
+
+iframe {
+    float: left;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  border: 10px;
+  z-index: 1;
+}
+
+.slideshow-container img {
+    height: 600px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text1 {
+  color: #C51B54;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px #F7B2AD;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

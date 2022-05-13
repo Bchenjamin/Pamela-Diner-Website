@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Benjamin Chen">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Benjamin Chen's professional website">
+    <!-- External Links to all CSS files-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+    <!-- External Links to all JS files -->
+    <script src="js/scripts.js" defer></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+
+    <!-- The title will appear in the top menu bar-->
+    <title>Pamela's Diner Locations</title>
+</head>
+
+<body class="page3">
+<div id="container">
+    <div id="top_row">
+        <header>
+            <img src="images/Pamelas_Diner_Logo.png" alt="Pamela's Diner Logo" height="100">
+            <br><br>
+            <span>Serving the BEST BREAKFAST SINCE 1980.</span>
+        </header>
+
+        <nav id="navbar">
+            <a href="index.html">Home</a> 
+            <a href="menu.html">Menu</a> 
+            <a class="selected" href="locations.html">Locations</a>
+            <a href="people.html">What People Are Saying</a>
+            <a href="contact.html">Contact Us</a>
+        </nav> 
+    </div> <!-- Close top_row tag-->
+
+    <div id="content">
+        <h3>Our Locations</h3>
+        <span>Please use the below maps to find where we are located.</span>
+        <h4>Mt. Lebanon</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12156.11186202307!2d-80.0437669!3d40.3860728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7ff4cd134537b0b!2sPamela&#39;s%20P%20%26%20G%20Diner%20%7C%20Mt.%20Lebanon!5e0!3m2!1sen!2sus!4v1648408000049!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+
+            <tr onmouseover="showDescription('Sorry for the inconvenience :(');" onmouseout="hideDescription();">
+                <td>Monday</td>
+                <td>CLOSED</td>
+            </tr>
+
+            <tr onmouseover="showDescription('Sorry for the inconvenience :(');" onmouseout="hideDescription();">
+                <td>Tuesday</td>
+                <td>CLOSED</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>8AM to 2PM</td>
+            </tr>  
+
+            <tr>
+                <td>Friday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+        </table> <!-- Close table tag-->
+        <div id="description"></div>
+        <br><br><br><br><br><br><br>
+        
+    
+        <h4>Shadyside</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12144.27626489836!2d-79.9328222!3d40.4516083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21ad7841ff8f2025!2sPamela&#39;s%20%7C%20P%26G%20Diner!5e0!3m2!1sen!2sus!4v1648411090785!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+
+            <tr onmouseover="showDescription('In the case analysis project, we analyzed Walmart\'s business model and their practices.');" onmouseout="hideDescription();">
+                <td>Monday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr onmouseover="showDescription('In the web development project, we build a custom website for a company of our choosing.');" onmouseout="hideDescription();">
+                <td>Tuesday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr onmouseover="showDescription('In the database project, we design our own databases to manage.');" onmouseout="hideDescription('hideDescription');">
+                <td>Wednesday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>8AM to 2PM</td>
+            </tr>  
+
+            <tr>
+                <td>Friday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+        </table> <!-- Close table tag-->
+        <br><br><br><br><br><br><br>
+        
+        <h4>Strip District</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3036.0786955560466!2d-79.98328890178298!3d40.45139516635222!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b6723dae7142a78!2sPamela&#39;s%20Diner!5e0!3m2!1sen!2sus!4v1648404054569!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+
+            <tr onmouseover="showDescription('In the case analysis project, we analyzed Walmart\'s business model and their practices.');" onmouseout="hideDescription();">
+                <td>Monday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr onmouseover="showDescription('In the web development project, we build a custom website for a company of our choosing.');" onmouseout="hideDescription();">
+                <td>Tuesday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr onmouseover="showDescription('In the database project, we design our own databases to manage.');" onmouseout="hideDescription('hideDescription');">
+                <td>Wednesday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>8AM to 2PM</td>
+            </tr>  
+
+            <tr>
+                <td>Friday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td>8AM to 2PM</td>
+            </tr>
+        </table> <!-- Close table tag-->
+        <br><br><br><br><br><br><br>
+
+        <h4>Squirrel Hill</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12146.794467030611!2d-79.922831!3d40.437672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcfa5bf31a3f22b9a!2sPamela&#39;s%20P%26G%20Diner!5e0!3m2!1sen!2sus!4v1648411118374!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>PERMANENTLY CLOSED</p>
+        <p>Sorry for the inconvenience :(</p>
+        <br><br><br><br><br><br><br>
+    </div> <!--Close content tag-->
+
+    <footer>
+        <hr>
+        <a href="https://www.instagram.com/pamelasdiner/?hl=en" 
+            target="_blank"><img src="images/instagram.png" width="40" height="30"
+            alt="Instagram Image"/></a>
+        <a href="https://www.facebook.com/pamelasdiner/" 
+            target="_blank"><img src="images/facebook.png" width="40" height="30"
+            alt="Facebook Image"/></a>
+        <a href="https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh"
+        target="_blank"><img src="images/yelp.png" width="40" height="25" 
+        alt="Yelp Image"/></a><br>
+        &copy; Pamela's Diner 2022<br>
+    </footer> 
+
+</div> <!-- Close container tag -->
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Benjamin Chen">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Benjamin Chen's professional website">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css">
+    <!-- External link to all JS files in my project -->
+    <script src="js/scripts.js" defer></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.lightbox.min.js"></script>
+
+    <script>
+        $(function() {
+            $( "#tabs" ).tabs({
+                event: "mouseover"
+            });
+        });
+    </script>
+
+    <!-- The title will appear in the top menu bar-->
+    <title>Pamela's Diner Menu</title>
+</head>
+
+<body class="page2">
+<div id="container">
+    <div id="top_row">
+        <header>
+            <img src="images/Pamelas_Diner_Logo.png" alt="Pamela's Diner Logo" height="100">
+            <br><br>
+            <span>Serving the BEST BREAKFAST SINCE 1980.</span>
+        </header>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a class="selected" href="menu.html">Menu</a> 
+            <a href="locations.html">Locations</a>
+            <a href="people.html">What People Are Saying</a>
+            <a href="contact.html">Contact Us</a>
+        
+        </nav> 
+    </div> <!-- Close top row tag-->
+
+    <div id="content">
+        <h3>Please take a look at the menu for each of our locations. (You can also order online at select locations!</h3>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Mt. Lebanon</a></li>
+                <li><a href="#tabs-2">Shadyside</a></li>
+                <li><a href="#tabs-3">Squirrel Hill</a></li>
+                <li><a href="#tabs-4">Strip District</a></li>
+            </ul>
+
+            <div id="tabs-1">
+                <img src="images/MtLebanonLocation.jpeg" alt="Mt Lebanon" width="350" height = "250">
+                <p>Photo courtesy of Cumaps</p>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In hendrerit dolor leo, ac accumsan lorem consequat eget. 
+                    Nam ut massa malesuada, tincidunt nulla ut, sollicitudin tortor. 
+                    Aliquam eu est elementum, placerat purus sed, rutrum metus. 
+                    Sed hendrerit a sem id tristique. 
+                    Sed vulputate egestas mi, sit amet aliquam diam scelerisque vel. 
+                    Pellentesque eget cursus odio. 
+                    Curabitur porttitor rutrum nunc, sed varius risus viverra quis. 
+                    Nunc tincidunt nisi diam, sit amet gravida eros volutpat posuere. 
+                    Ut volutpat urna non ante bibendum vehicula nec eu eros. 
+                    Nulla facilisi. Pellentesque pharetra gravida elit id molestie.
+
+                    Curabitur condimentum justo libero. 
+                    Nunc pretium rutrum lacus, vitae suscipit erat condimentum ac. 
+                    Suspendisse euismod leo vitae tempus consectetur. 
+                    Integer tellus massa, hendrerit ac tellus ut, feugiat tristique mi. 
+                    Donec dictum, urna eu dapibus dapibus, ex nisl maximus tellus, vel pharetra lacus enim eget augue. 
+                    Quisque vitae venenatis ipsum. Duis a efficitur massa.
+                </span>
+                <br>
+                <button onclick="window.open('MtLebanonMenu.pdf');">Click here for the menu!</button>
+                <button onclick="location.href='https://www.toasttab.com/pamelas-diner-mt-lebanon-427-washington-road/v3'">Order Online!</button>
+            </div>
+
+            <div id="tabs-2">
+                <img src="images/ShadysideLocation.png" alt="Shadyside" width="350" height = "250">
+                <p>Photo courtesy of Alamy</p>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In hendrerit dolor leo, ac accumsan lorem consequat eget. 
+                    Nam ut massa malesuada, tincidunt nulla ut, sollicitudin tortor. 
+                    Aliquam eu est elementum, placerat purus sed, rutrum metus. 
+                    Sed hendrerit a sem id tristique. 
+                    Sed vulputate egestas mi, sit amet aliquam diam scelerisque vel. 
+                    Pellentesque eget cursus odio. 
+                    Curabitur porttitor rutrum nunc, sed varius risus viverra quis. 
+                    Nunc tincidunt nisi diam, sit amet gravida eros volutpat posuere. 
+                    Ut volutpat urna non ante bibendum vehicula nec eu eros. 
+                    Nulla facilisi. Pellentesque pharetra gravida elit id molestie.
+
+                    Curabitur condimentum justo libero. 
+                    Nunc pretium rutrum lacus, vitae suscipit erat condimentum ac. 
+                    Suspendisse euismod leo vitae tempus consectetur. 
+                    Integer tellus massa, hendrerit ac tellus ut, feugiat tristique mi. 
+                    Donec dictum, urna eu dapibus dapibus, ex nisl maximus tellus, vel pharetra lacus enim eget augue. 
+                    Quisque vitae venenatis ipsum. Duis a efficitur massa.
+                </span>
+                <br>
+                <button onclick="window.open('ShadysideMenu.pdf');">Click here for the menu!</button>
+                <button onclick="location.href='https://www.toasttab.com/pamelas-diner-shadyside-5527-walnut-st/v3'">Order Online!</button>
+            </div>
+
+            <div id="tabs-3">
+                <img src="images/SquirrelHillLocation.jpeg" alt="Squirrel Hill" width="350" height = "250">
+                <p>Photo courtesy of Pittsburgh Post Gazette</p>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In hendrerit dolor leo, ac accumsan lorem consequat eget. 
+                    Nam ut massa malesuada, tincidunt nulla ut, sollicitudin tortor. 
+                    Aliquam eu est elementum, placerat purus sed, rutrum metus. 
+                    Sed hendrerit a sem id tristique. 
+                    Sed vulputate egestas mi, sit amet aliquam diam scelerisque vel. 
+                    Pellentesque eget cursus odio. 
+                    Curabitur porttitor rutrum nunc, sed varius risus viverra quis. 
+                    Nunc tincidunt nisi diam, sit amet gravida eros volutpat posuere. 
+                    Ut volutpat urna non ante bibendum vehicula nec eu eros. 
+                    Nulla facilisi. Pellentesque pharetra gravida elit id molestie.
+
+                    Curabitur condimentum justo libero. 
+                    Nunc pretium rutrum lacus, vitae suscipit erat condimentum ac. 
+                    Suspendisse euismod leo vitae tempus consectetur. 
+                    Integer tellus massa, hendrerit ac tellus ut, feugiat tristique mi. 
+                    Donec dictum, urna eu dapibus dapibus, ex nisl maximus tellus, vel pharetra lacus enim eget augue. 
+                    Quisque vitae venenatis ipsum. Duis a efficitur massa.
+                </span>
+                <br>
+                <button onclick="window.open('SqHillMenu.pdf');">Click here for the menu!</button>
+            </div>
+
+            <div id="tabs-4">
+                <img src="images/StripDistrictLocation.jpeg" alt="Strip District" width="350" height = "250">
+                <p>Photo courtesy of TribLIVE</p>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In hendrerit dolor leo, ac accumsan lorem consequat eget. 
+                    Nam ut massa malesuada, tincidunt nulla ut, sollicitudin tortor. 
+                    Aliquam eu est elementum, placerat purus sed, rutrum metus. 
+                    Sed hendrerit a sem id tristique. 
+                    Sed vulputate egestas mi, sit amet aliquam diam scelerisque vel. 
+                    Pellentesque eget cursus odio. 
+                    Curabitur porttitor rutrum nunc, sed varius risus viverra quis. 
+                    Nunc tincidunt nisi diam, sit amet gravida eros volutpat posuere. 
+                    Ut volutpat urna non ante bibendum vehicula nec eu eros. 
+                    Nulla facilisi. Pellentesque pharetra gravida elit id molestie.
+
+                    Curabitur condimentum justo libero. 
+                    Nunc pretium rutrum lacus, vitae suscipit erat condimentum ac. 
+                    Suspendisse euismod leo vitae tempus consectetur. 
+                    Integer tellus massa, hendrerit ac tellus ut, feugiat tristique mi. 
+                    Donec dictum, urna eu dapibus dapibus, ex nisl maximus tellus, vel pharetra lacus enim eget augue. 
+                    Quisque vitae venenatis ipsum. Duis a efficitur massa.
+                </span>
+                <br>
+                <button onclick="window.open('StripDistrictMenu.pdf');">Click here for the menu!</button>
+                <button onclick="location.href='https://www.toasttab.com/pamela-s-diner-strip-district-60-21st-street/v3'">Order Online!</button>
+            </div>
+        </div> <!--Close tabs tag-->
+        <br>   
+    </div> <!-- Close content tag-->
+
+    <footer>
+        <hr>
+        <a href="https://www.instagram.com/pamelasdiner/?hl=en" 
+            target="_blank"><img src="images/instagram.png" width="40" height="30"
+            alt="Instagram Image"/></a>
+        <a href="https://www.facebook.com/pamelasdiner/" 
+            target="_blank"><img src="images/facebook.png" width="40" height="30"
+            alt="Facebook Image"/></a>
+        <a href="https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh"
+        target="_blank"><img src="images/yelp.png" width="40" height="25" 
+        alt="Yelp Image"/></a><br>
+        &copy; Pamela's Diner 2022<br>
+    </footer> 
+</div> <!-- Close container tag-->
+</body>
+</html>

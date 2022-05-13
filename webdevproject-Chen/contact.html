@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Benjamin Chen">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Benjamin Chen's professional website">
+    <!-- External Links to all CSS files-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+    <!-- External Links to all JS files -->
+    <script src="js/scripts.js" defer></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+  
+
+    <!-- The title will appear in the top menu bar-->
+    <title> Pamela's Diner Contact Page</title>
+</head>
+
+<body class="page5">
+<div id="container">
+    <div id="top_row">
+        <header>
+            <img src="images/Pamelas_Diner_Logo.png" alt="Pamela's Diner Logo" height="100">
+            <br><br>
+            <span>Serving the BEST BREAKFAST SINCE 1980.</span>
+        </header>
+
+        <nav id="navbar">
+            <a href="index.html">Home</a> 
+            <a href="menu.html">Menu</a> 
+            <a href="locations.html">Locations</a>
+            <a href="people.html">What People Are Saying</a>
+            <a class="selected" href="contact.html">Contact Us</a>
+            <!-- These anchors take us to another page within the website-->
+        </nav> 
+    </div> <!-- Close top_row tag-->
+
+    <div id="content">
+        <h3>Contact Us!</h3>
+        <table>
+            <tr>
+                <th>Location</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+            </tr>
+
+            <tr>
+                <td>Mt. Lebanon</td>
+                <td>427 Washington Rd, Pittsburgh, PA 15228</td>
+                <td>(412) 343-3344</td>
+            </tr>
+
+            <tr>
+                <td>Shadyside</td>
+                <td>5527 Walnut St #2, Pittsburgh, PA 15232</td>
+                <td>(412) 683-1003</td>
+            </tr>
+
+            <tr>
+                <td>Strip District</td>
+                <td>60 21st St, Pittsburgh, PA 15222</td>
+                <td>(412) 281-6366</td>
+            </tr>
+
+            <tr>
+                <td>Squirrel Hill</td>
+                <td>1711 Murray Ave, Pittsburgh, PA 15217</td>
+                <td onmouseover="showDescription('Due to staff shortages and the Covid-19 pandemic, this location has been permanently closed. Thank your for your loyal patronage and we wil do our best to serve at our other locations.');" onmouseout="hideDescription();">Hover for more information</td>
+            </tr>
+
+        </table> <!-- Close table tag-->
+        <div id="description"></div>
+        <br>
+
+        <p>For business inquiries or matters suitable for email, please click here:</p>
+        <a href="mailto:pam@pamelasdiner.com"><img src="images/email.png" width="40" height="30" alt="mailto logo"/></a>
+        <br>
+
+        <form onsubmit="return validate()">
+            <fieldset>
+                <legend>Join our mailing list!</legend>
+
+                <label for="name">Name</label><br>
+                <input type="text" id="name" minlength="2" maxlength="100" placeholder="Your Name" required><br>
+                
+                <label for="email">Please provide your email address:</label><br>
+                <input type="email" id="email" minlength="5" maxlength="50" placeholder="abc@dgf.com" required><br>
+
+                <label for="zipCode">Your ZIP code(optional):</label><br>
+                <input type="text" id="zipCode" placeholder="12345" minlength="5" maxlength="5"><br>
+            
+            </fieldset>
+
+            <fieldset>
+                <legend>Let's Stay in Touch</legend>
+
+                    <label for="source">How Did You Found Out About Us</label><br>
+                    <select id="source">
+                        <option value="Google">Google</option>
+                        <option value="News Article">News Article</option>
+                        <option value="Friend">Friend</option>
+                        <option value="Other">Other</option>
+                    </select><br>
+                    
+                    <label for="Update">Please indicate if you want to updates
+                                        via email</label><br>
+                    <input type="checkbox" id="Update" name="Update">
+                    <label for="Update">Yes, please update me!</label><br>
+            
+            </fieldset>
+
+            <fieldset>
+                <input type ="image" src="images/submit.png" alt="Submit" name= "btnimage">
+            </fieldset>
+        </form> <!-- Close form tag-->
+    </div> <!--Close content tag-->
+
+    <footer>
+        <hr>
+        <a href="https://www.instagram.com/pamelasdiner/?hl=en" 
+            target="_blank"><img src="images/instagram.png" width="40" height="30"
+            alt="Instagram Image"/></a>
+        <a href="https://www.facebook.com/pamelasdiner/" 
+            target="_blank"><img src="images/facebook.png" width="40" height="30"
+            alt="Facebook Image"/></a>
+        <a href="https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh"
+        target="_blank"><img src="images/yelp.png" width="40" height="25" 
+        alt="Yelp Image"/></a><br>
+        &copy; Pamela's Diner 2022<br>
+    </footer> 
+
+
+</div> <!-- Close container tag -->
+</body>
+</html>
